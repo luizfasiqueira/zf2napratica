@@ -18,7 +18,6 @@ return array(
                         '__NAMESPACE__' => 'Admin\Controller',
                         'controller' => 'Index',
                         'action' => 'index',
-                        'module' => 'admin'
                     ),
                 ),
                 'may_terminate' => true,
@@ -30,8 +29,6 @@ return array(
                             'constraints' => array(
                                 'controller' => '[a-zA-Z][a-zA-Z0-9_-]*',
                                 'action' => '[a-zA-Z][a-zA-Z0-9_-]*',
-                            ),
-                            'defaults' => array(
                             ),
                         ),
                         'child_routes' => array(//permite mandar dados pela url 
