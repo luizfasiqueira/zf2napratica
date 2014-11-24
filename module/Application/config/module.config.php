@@ -18,6 +18,8 @@ return array(
                         'controller' => 'Application\Controller\Index',
                         'action'     => 'index',
                         'module'     => 'application',
+                        'Core',
+                        'Admin'
                     ),
                 ),
             ),
@@ -29,7 +31,9 @@ return array(
                         'controller'    => 'Index',
                         'action'        => 'index',
                         '__NAMESPACE__' => 'Application\Controller',
-                        'module'     => 'application'
+                        'module'     => 'application',
+                        'Core',
+                        'Admin'
                     ),
                 ),
                 'may_terminate' => true,
